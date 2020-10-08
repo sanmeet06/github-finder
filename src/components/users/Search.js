@@ -18,7 +18,8 @@ const Search =()=> {
                 <form onSubmit={onSubmit}className="form">
                     <input type="text"  onChange={onChange}value={text}
                      placeholder="search users" />
-                    <input type="submit" value="Search" className="btn btn-dark btn-block"/>
+                    <input style={{backgroundColor:"rgb(71 65 65)"}} type="submit"
+                     value="Search" className="btn btn-dark btn-block"/>
                 </form>
                 {gitContext.users.length>0 &&(
                 <button className="btn btn-light btn-block" 
