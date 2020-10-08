@@ -4,7 +4,7 @@ import React from 'react'
     return (
         <div>
             <h2>About</h2>
-            <p>Search github users..........</p>
+            <p>Search your github profile........</p>
         </div>
     )
 }
